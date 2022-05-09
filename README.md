@@ -1,3 +1,10 @@
+This is an app that fetches (using fetch()) images from an external resource to display them using Grid. Each image can be favourited or added to the cart. This uses React's State.
+
+The app is fully functional. It mimics the behaviour of buying the images and clears the cart automatically. This tool makes extensive use of fundamental React tools, such as Router, Context, Hooks and Functional Components.
+
+You can see the deployed project in:
+https://willowy-stroopwafel-da80ce.netlify.app/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
