@@ -3,7 +3,7 @@
   --red: #EA453C;
   --pink: #F47B6E;
   --light-blue: #EFFBFE;
-  --blue: #ACE6EC;
+  --blue: #88c8cf;
 }
 
 html, body {
@@ -80,7 +80,7 @@ img.image-grid {
 
 .favorite {
   color: var(--red);
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   position: absolute;
   top: 5px;
   left: 5px;
@@ -98,7 +98,7 @@ img.image-grid {
 
 .cart {
   color: var(--blue);
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   position: absolute;
   top: 5px;
   right: 5px;
