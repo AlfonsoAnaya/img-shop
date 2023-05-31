@@ -1,5 +1,4 @@
 import React, {useState, useContext} from "react"
-import PropTypes from "prop-types"
 import {Context} from "../Context"
 
 function CartItem({item}) {
@@ -18,16 +17,10 @@ function CartItem({item}) {
             >
             </i>
             
-            <img src={item.url} width="130px" />
+            <img src={item.urls.thumb} width="130px" />
             <p>$5.99</p>
         </div>
     )
-}
-
-CartItem.propTypes = {
-    item: PropTypes.shape({
-        url: PropTypes.string.isRequired
-    })
 }
 
 export default CartItem

@@ -1,5 +1,4 @@
 import React, {useState, useContext} from "react"
-import PropTypes from "prop-types"
 
 import {Context} from "../Context"
 
@@ -30,20 +29,11 @@ function Image({className, img}) {
             onMouseEnter={() => setHovered(true)}
             onMouseLeave={() => setHovered(false)}
         >
-            <img src={img.url} className="image-grid"/>
+            <img src={img.urls.small} className="image-grid"/>
             {heartIcon()}
             {cartIcon()}
         </div>
     )
-}
-
-Image.propTypes = {
-    className: PropTypes.string,
-    img: PropTypes.shape({
-        id: PropTypes.string.isRequired,
-        url: PropTypes.string.isRequired,
-        isFavorite: PropTypes.bool
-    })
 }
 
 export default Image
